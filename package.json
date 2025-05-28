@@ -1,0 +1,12 @@
+{
+  "name": "angularjs-app",
+  "version": "1.0.0",
+  "description": "Simple AngularJS app for EC2",
+  "scripts": {
+    "start": "live-server --port=8080 --open=./index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
