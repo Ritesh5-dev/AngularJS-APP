@@ -5,14 +5,15 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies..."
       - npm install
   build:
     commands:
-      - echo Build phase for AngularJS (no build needed)
+      - echo "Build phase for AngularJS (no build needed)"
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo "Build completed on $(date)"
 artifacts:
   files:
     - '**/*'
+
